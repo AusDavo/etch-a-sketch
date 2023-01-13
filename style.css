@@ -1,13 +1,17 @@
 .grid-container {
-    display: grid;
-    grid-template-rows: repeat(16, 1fr);
-    grid-template-columns: repeat(16, 1fr);
-    width: 960px;
-    height: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 800px;
+    border: beige 2px solid;
+}
+
+.grid-square {
+    height: 6.25%;
+    width: 6.25%;
 }
 
 .grid-square.hovered {
     display: grid;
-    border: solid 1px #ccc;
     background-color: red; /* Change the color when hovered */
 }
