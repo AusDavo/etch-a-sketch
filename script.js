@@ -10,7 +10,6 @@ function showPrompt() {
 // Update grid based on the new dimension provided by the user
 function prepGrid(dimension) {
   
-  // Select the container element
   const container = document.querySelector('.grid-container');
   container.style.display = "flex";
   container.style.display = "wrap";
