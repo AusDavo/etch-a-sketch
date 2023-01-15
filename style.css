@@ -6,7 +6,3 @@
     border: beige 2px solid;
 }
 
-.grid-square.hovered {
-    display: grid;
-    background-color: red; /* Change the color when hovered */
-}
